@@ -8,7 +8,7 @@ const EditForm = ({ reminder, setRemToBeEdited, reminderList, setReminderList, c
   const [description, setDescription] = useState('');
   const [date, setDate] = useState('');
   const [time, setTime] = useState(''); 
-  const [longTime, setLongTime] = useState(''); 
+  const [longTime, setLongTime] = useState(null); 
   const [validationMsg, setValidationMsg] = useState('');
 
   // -- set state variables to the reminder to be edited
