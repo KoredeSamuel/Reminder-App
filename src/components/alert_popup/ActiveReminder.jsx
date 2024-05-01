@@ -30,7 +30,7 @@ const ActiveReminder = ({activeReminder, setActiveReminder,  removeReminder, aud
         <div className="alert active-reminder">
             <span className="material-symbols-outlined close" onClick={() => closeReminderAlert(activeReminder.id)}>close</span>
             <img src={alarm} alt="" />
-            <h2>Your <span className='purple-color'><b>Reminder</b></span> is Due</h2>
+            <h2>Your <span className='purple-color'><b>Reminder</b></span> iss Due</h2>
 
             <div className="reminder-card">
                 <div className="reminder-title"><h4>{activeReminder.title}</h4></div>
